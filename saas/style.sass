@@ -1,0 +1,65 @@
+$color_white: #ffffff
+$color_black: #000000
+$color_light: #F1EBE7
+$color_medium: #E7DED8
+$color_dark: #68513F
+
+
+body,
+html,
+ul,
+li,
+link
+  margin: 0
+  padding: 0
+  list-style: none
+  box-sizing: border-box
+
+.container
+  max-width: 800px
+  margin: auto
+  display: grid
+  justify-content: center
+  align-items: center
+  text-align: center
+
+.voting-section
+  padding: 20px 0
+  //background-color: $color_white
+  display: flex
+  justify-content: center
+  align-items: center
+
+.voting-block
+  //background-color: $color_light
+  display: flex
+  //flex-wrap: wrap
+  justify-content: space-between
+  align-items: center
+
+  .voting-block_div
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    flex-direction: column
+    gap: 5px
+    padding: 2px 20px
+
+  .voting-block_item
+    display: block
+    text-align: center
+
+  .voting-block_count
+    display: block
+    text-align: center
+
+
+  //.voting-block_item:after
+  //  content: ""
+  //  display: inline-block
+  //  position: absolute
+  //  top: -10px
+  //  left: 50%
+
+  //  display: flex
+
